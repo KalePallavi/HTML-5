@@ -1,0 +1,45 @@
+html
+head
+title
+body
+p
+pre
+h1 to h6
+br
+hr
+mark
+del
+b
+i
+u
+small
+big
+sub
+sup
+snap (mt tag do not personal facility)
+center
+footer
+anchor (a) href
+img 
+marquee
+ol
+ul
+li
+dt
+dd
+table
+tr
+th
+td
+caption
+thead
+tbody
+tfooter
+div
+audio
+vedeo
+source
+iframe
+embed
+style
+link

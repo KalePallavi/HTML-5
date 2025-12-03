@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <style type="text/css">
+		input{
+			width: 100%;
+		}
+	</style> -->
+</head>	
+<body>
+<form action="xyz.html" method="get" enctype="multipart/form-data">
+	<!-- string - name,mobile,email-->
+	<!-- file - photo,resume-->
+	<fieldset>
+		<legend>Personal Info</legend>
+		<label>Name:-</label>
+		<input type="text" name="sname" value="A2Z IT HUB"><br/><br/>
+		<label>Email:-</label>
+		<input type="email" name="semail" value="a2z@gmail.com" required><br/><br/>
+		<label>Mobile:-</label>
+		<input type="number" name="mobile" value="" required><br/><br>
+		
+		<label>DOB:-</label>
+		<input type="date" name="dob" value="" required><br/><br/>
+		<label>Gender:-</label>
+		<input type="radio" name="gender" value="male"><b>Male</b>
+		<input type="radio" name="gender" value="female"><b>Female</b>
+		<br/><br/>
+		<label>Photo:-</label>
+		<input type="file" name="photo" required><br/><br/>
+	</fieldset>
+	<fieldset>
+		<legend>Address & Course & Login & Save</legend>
+		<label>State:-</label>
+		<select name="state" required>
+			<option value="">Choose</option>
+			<option value="maha">Maha</option>
+			<option value="raj">Raj</option>
+			<option value="gu">Guj</option>
+		</select>
+		<br/><br/>
+		<label>Full Address:-</label>
+		<textarea name="address" required></textarea><br/><br/>
+		<label>Pincode:-</label>
+		<input type="number" name="pincode" required><br/><br/>
+		<label>Choose Technology:-</label>
+		<input type="checkbox" name="sub1" value="html"><b>HTML</b>
+		<input type="checkbox" name="sub2" value="css"><b>CSS</b>
+		<input type="checkbox" name="sub3" value="js"><b>JS</b>
+		<br/><br/>
+		<label>Username:-</label>
+		<input type="text" name="username" value="" required><br><br>
+		<label>Password:-</label>
+		<input type="Password" name="Password" value="" required><br><br>
+		<input type="reset">
+		<input type="submit">
+	</fieldset>
+</form>	
+</body>
+</html>
